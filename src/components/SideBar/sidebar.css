@@ -1,0 +1,30 @@
+.sidebar-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100vh;
+    border-right: 1px solid #808191;
+}
+.sidebar-top{
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.sidebar-middle{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: space-around;
+    align-items: center;
+}
+.sidebar-bottom{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar-icons{
+    font-size: 1.6rem;
+    color: #808191;
+}

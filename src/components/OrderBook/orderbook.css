@@ -1,0 +1,65 @@
+.order-book-container{
+    display: flex;
+    flex-direction: column;
+}
+.order-book-header-container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.order-book-header-text{
+    font-size: 0.8rem;
+    margin: 2%;
+    font-weight: 600;
+    padding: 4%;
+    width: 100%;
+    text-align: center;
+    color: #808080;
+}
+.circled{
+    background-color: #000;
+    border-radius: 24px;
+    color: #6C5DD3;
+}
+.order-book-subheader-text{
+    font-size: 0.75rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-weight: 600;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    width: 100%;
+    color: #808080;
+}
+.value-dump{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.value-text{
+    font-size: 0.9rem;
+    margin: 2%;
+}
+.asks{
+    color: #FF7968;
+}
+.bids{
+    color: #3DB6A0;
+}
+.price{
+    color: #fff;
+}
+.coin-value{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    border: 1px solid #808191;
+}
+.coin-value-text{
+    font-size: 1.5rem;
+    margin: 0;
+    color: #3DB6A0;
+}

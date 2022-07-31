@@ -1,0 +1,40 @@
+.home-container{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 100vh;
+}
+.left{
+    width: 5%;
+}
+.center{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.mid-top{
+    flex: 1;
+}
+.mid-lower{
+    display: flex;
+    flex: 10;
+}
+.mid-left{
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+}
+.mid-left-top{
+    flex: 2;
+}
+.mid-left-bottom{
+    flex: 1;
+}
+.mid-center{
+    flex: 1;
+    border-right: 1px solid #808191;
+    border-left: 1px solid #808191;
+}
+.mid-right{
+    flex: 1.2;
+}

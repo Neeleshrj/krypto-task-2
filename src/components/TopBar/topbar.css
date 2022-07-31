@@ -1,0 +1,65 @@
+.topbar-container{
+    display: flex;
+    flex: 1;
+    border-bottom: 1px solid #808191;
+}
+.topbar-small{
+    display: flex;
+    border-right: 1px solid #808191;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+}
+.btc-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+.icon-btc{
+    font-size: 2.5rem;
+    color: #F7931A;
+}
+.topbar-text-container{
+    display: flex;
+    flex-direction: column;
+}
+.topbar-chevron-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20%;
+}
+.coin-name{
+    padding-right: 4%;
+    margin: 0;
+    font-size: 1.2rem;
+    color: #fff;
+}
+.chevron-icon{
+    font-size: 1.2rem;
+    color: #fff;
+}
+.sub-text{
+    margin: 0;
+    margin-bottom: 20%;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #808080;
+}
+.topbar-small-infobox{
+    justify-content: center;
+    align-items: center;
+}
+.small-header{
+    margin: 0;
+    font-size: 0.8rem;
+    color: #808080;
+    font-weight: 600;
+}
+.small-sub-text{
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #4EBF67;
+}
